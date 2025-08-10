@@ -14,7 +14,7 @@ class driver;
       vintf.data_in = trans.data_in;
       vintf.addr    = trans.addr ;
       $display("	DRIVER CLASS DATA");
-      $display("time=%0t,data_in=%0b,addr=%0b,data_out=%0b",$time,trans.data_in,trans.addr,trans.data_out);
+      $display("time=%0t,data_in=%h,addr=%h",$time,trans.data_in,trans.addr);
     end
   endtask
   
