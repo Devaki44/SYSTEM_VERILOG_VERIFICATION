@@ -13,9 +13,10 @@ class generator;
       void'(trans.randomize());
       g2d.put(trans);
       $display("	GENERATOR CLASS DATA");
-      $display("time=%0t,data_in=%0b,addr=%0b",$time,trans.data_in,trans.addr);
+      $display("time=%0t,data_in=%h,addr=%h",$time,trans.data_in,trans.addr);
       @gn;
     end
   endtask
 endclass
+      
       
