@@ -27,12 +27,14 @@ module testbench;
     rst = 0;
   end
   initial begin
-    en = 0;
-    forever #20 en = ~en ;
-    #2000;
+    en = 1;
+    forever #10 en = ~en ;
+
+  end
+  initial begin
+      #100;
     $finish;
   end
-    
   initial begin
     $dumpfile("dumpvars.vcd");
     $dumpvars;
