@@ -8,7 +8,7 @@ module s_ram(
   
   reg[7:0]mem[15:0];
   
-  always@(posedge clk)begin
+  always@(posedge clk or posedge rst)begin
     if(rst)
       data_out <= 8'b0 ;
     else begin
