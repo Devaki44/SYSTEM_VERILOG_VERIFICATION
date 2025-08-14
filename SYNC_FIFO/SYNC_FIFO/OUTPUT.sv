@@ -1,0 +1,404 @@
+xcelium> run
+	GENERATOR	
+time=0,data_in=7
+	DRIVER  	
+time=0,clk=0,data_in=7,rst =1,
+	MONITOR	
+time=6,clk=1,rst=1,en=1,data_in=7,data_out=0,full=0,empty=1
+	SCOREBOARD	
+time=6,rst=1,en=1,data_in=7,data_out=0,full=0,empty=1
+time=6,rst=1,en=1,data_in=7,data_out=0,full=0,empty=1
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=6,data_in=9
+	DRIVER  	
+time=6,clk=1,data_in=9,rst =1,
+	MONITOR	
+time=16,clk=1,rst=0,en=1,data_in=9,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=16,rst=0,en=1,data_in=9,data_out=0,full=0,empty=0
+time=16,rst=0,en=1,data_in=9,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=16,data_in=9
+	DRIVER  	
+time=16,clk=1,data_in=9,rst =0,
+	MONITOR	
+time=26,clk=1,rst=0,en=1,data_in=9,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=26,rst=0,en=1,data_in=9,data_out=0,full=0,empty=0
+time=26,rst=0,en=1,data_in=9,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=26,data_in=9
+	DRIVER  	
+time=26,clk=1,data_in=9,rst =0,
+	MONITOR	
+time=36,clk=1,rst=0,en=1,data_in=9,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=36,rst=0,en=1,data_in=9,data_out=0,full=0,empty=0
+time=36,rst=0,en=1,data_in=9,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=36,data_in=8
+	DRIVER  	
+time=36,clk=1,data_in=8,rst =0,
+	MONITOR	
+time=46,clk=1,rst=0,en=1,data_in=8,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=46,rst=0,en=1,data_in=8,data_out=0,full=0,empty=0
+time=46,rst=0,en=1,data_in=8,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=46,data_in=f
+	DRIVER  	
+time=46,clk=1,data_in=f,rst =0,
+	MONITOR	
+time=56,clk=1,rst=0,en=1,data_in=f,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=56,rst=0,en=1,data_in=f,data_out=0,full=0,empty=0
+time=56,rst=0,en=1,data_in=f,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=56,data_in=c
+	DRIVER  	
+time=56,clk=1,data_in=c,rst =0,
+	MONITOR	
+time=66,clk=1,rst=0,en=1,data_in=c,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=66,rst=0,en=1,data_in=c,data_out=0,full=0,empty=0
+time=66,rst=0,en=1,data_in=c,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=66,data_in=3
+	DRIVER  	
+time=66,clk=1,data_in=3,rst =0,
+	MONITOR	
+time=76,clk=1,rst=0,en=1,data_in=3,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=76,rst=0,en=1,data_in=3,data_out=0,full=0,empty=0
+time=76,rst=0,en=1,data_in=3,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=76,data_in=4
+	DRIVER  	
+time=76,clk=1,data_in=4,rst =0,
+	MONITOR	
+time=86,clk=1,rst=0,en=1,data_in=4,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=86,rst=0,en=1,data_in=4,data_out=0,full=0,empty=0
+time=86,rst=0,en=1,data_in=4,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=86,data_in=3
+	DRIVER  	
+time=86,clk=1,data_in=3,rst =0,
+	MONITOR	
+time=96,clk=1,rst=0,en=1,data_in=3,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=96,rst=0,en=1,data_in=3,data_out=0,full=0,empty=0
+time=96,rst=0,en=1,data_in=3,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=96,data_in=0
+	DRIVER  	
+time=96,clk=1,data_in=0,rst =0,
+	MONITOR	
+time=106,clk=1,rst=0,en=1,data_in=0,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=106,rst=0,en=1,data_in=0,data_out=0,full=0,empty=0
+time=106,rst=0,en=1,data_in=0,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=106,data_in=4
+	DRIVER  	
+time=106,clk=1,data_in=4,rst =0,
+	MONITOR	
+time=116,clk=1,rst=0,en=1,data_in=4,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=116,rst=0,en=1,data_in=4,data_out=0,full=0,empty=0
+time=116,rst=0,en=1,data_in=4,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=116,data_in=b
+	DRIVER  	
+time=116,clk=1,data_in=b,rst =0,
+	MONITOR	
+time=126,clk=1,rst=0,en=1,data_in=b,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=126,rst=0,en=1,data_in=b,data_out=0,full=0,empty=0
+time=126,rst=0,en=1,data_in=b,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=126,data_in=2
+	DRIVER  	
+time=126,clk=1,data_in=2,rst =0,
+	MONITOR	
+time=136,clk=1,rst=0,en=1,data_in=2,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=136,rst=0,en=1,data_in=2,data_out=0,full=0,empty=0
+time=136,rst=0,en=1,data_in=2,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=136,data_in=e
+	DRIVER  	
+time=136,clk=1,data_in=e,rst =0,
+	MONITOR	
+time=146,clk=1,rst=0,en=1,data_in=e,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=146,rst=0,en=1,data_in=e,data_out=0,full=0,empty=0
+time=146,rst=0,en=1,data_in=e,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=146,data_in=5
+	DRIVER  	
+time=146,clk=1,data_in=5,rst =0,
+	MONITOR	
+time=156,clk=1,rst=0,en=1,data_in=5,data_out=0,full=0,empty=0
+	SCOREBOARD	
+time=156,rst=0,en=1,data_in=5,data_out=0,full=0,empty=0
+time=156,rst=0,en=1,data_in=5,data_out=0,full=0,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=156,data_in=f
+	DRIVER  	
+time=156,clk=1,data_in=f,rst =0,
+	MONITOR	
+time=166,clk=1,rst=0,en=1,data_in=f,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=166,rst=0,en=1,data_in=f,data_out=0,full=1,empty=0
+time=166,rst=0,en=1,data_in=f,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=166,data_in=e
+	DRIVER  	
+time=166,clk=1,data_in=e,rst =0,
+	MONITOR	
+time=176,clk=1,rst=0,en=1,data_in=e,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=176,rst=0,en=1,data_in=e,data_out=0,full=1,empty=0
+time=176,rst=0,en=1,data_in=e,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=176,data_in=1
+	DRIVER  	
+time=176,clk=1,data_in=1,rst =0,
+	MONITOR	
+time=186,clk=1,rst=0,en=1,data_in=1,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=186,rst=0,en=1,data_in=1,data_out=0,full=1,empty=0
+time=186,rst=0,en=1,data_in=1,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=186,data_in=3
+	DRIVER  	
+time=186,clk=1,data_in=3,rst =0,
+	MONITOR	
+time=196,clk=1,rst=0,en=1,data_in=3,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=196,rst=0,en=1,data_in=3,data_out=0,full=1,empty=0
+time=196,rst=0,en=1,data_in=3,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=196,data_in=4
+	DRIVER  	
+time=196,clk=1,data_in=4,rst =0,
+	MONITOR	
+time=206,clk=1,rst=0,en=1,data_in=4,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=206,rst=0,en=1,data_in=4,data_out=0,full=1,empty=0
+time=206,rst=0,en=1,data_in=4,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=206,data_in=d
+	DRIVER  	
+time=206,clk=1,data_in=d,rst =0,
+	MONITOR	
+time=216,clk=1,rst=0,en=1,data_in=d,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=216,rst=0,en=1,data_in=d,data_out=0,full=1,empty=0
+time=216,rst=0,en=1,data_in=d,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=216,data_in=6
+	DRIVER  	
+time=216,clk=1,data_in=6,rst =0,
+	MONITOR	
+time=226,clk=1,rst=0,en=1,data_in=6,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=226,rst=0,en=1,data_in=6,data_out=0,full=1,empty=0
+time=226,rst=0,en=1,data_in=6,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=226,data_in=3
+	DRIVER  	
+time=226,clk=1,data_in=3,rst =0,
+	MONITOR	
+time=236,clk=1,rst=0,en=1,data_in=3,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=236,rst=0,en=1,data_in=3,data_out=0,full=1,empty=0
+time=236,rst=0,en=1,data_in=3,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=236,data_in=6
+	DRIVER  	
+time=236,clk=1,data_in=6,rst =0,
+	MONITOR	
+time=246,clk=1,rst=0,en=1,data_in=6,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=246,rst=0,en=1,data_in=6,data_out=0,full=1,empty=0
+time=246,rst=0,en=1,data_in=6,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=246,data_in=b
+	DRIVER  	
+time=246,clk=1,data_in=b,rst =0,
+	MONITOR	
+time=256,clk=1,rst=0,en=1,data_in=b,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=256,rst=0,en=1,data_in=b,data_out=0,full=1,empty=0
+time=256,rst=0,en=1,data_in=b,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=256,data_in=9
+	DRIVER  	
+time=256,clk=1,data_in=9,rst =0,
+	MONITOR	
+time=266,clk=1,rst=0,en=1,data_in=9,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=266,rst=0,en=1,data_in=9,data_out=0,full=1,empty=0
+time=266,rst=0,en=1,data_in=9,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=266,data_in=e
+	DRIVER  	
+time=266,clk=1,data_in=e,rst =0,
+	MONITOR	
+time=276,clk=1,rst=0,en=1,data_in=e,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=276,rst=0,en=1,data_in=e,data_out=0,full=1,empty=0
+time=276,rst=0,en=1,data_in=e,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=276,data_in=8
+	DRIVER  	
+time=276,clk=1,data_in=8,rst =0,
+	MONITOR	
+time=286,clk=1,rst=0,en=1,data_in=8,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=286,rst=0,en=1,data_in=8,data_out=0,full=1,empty=0
+time=286,rst=0,en=1,data_in=8,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=286,data_in=3
+	DRIVER  	
+time=286,clk=1,data_in=3,rst =0,
+	MONITOR	
+time=296,clk=1,rst=0,en=1,data_in=3,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=296,rst=0,en=1,data_in=3,data_out=0,full=1,empty=0
+time=296,rst=0,en=1,data_in=3,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=296,data_in=a
+	DRIVER  	
+time=296,clk=1,data_in=a,rst =0,
+	MONITOR	
+time=306,clk=1,rst=0,en=1,data_in=a,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=306,rst=0,en=1,data_in=a,data_out=0,full=1,empty=0
+time=306,rst=0,en=1,data_in=a,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=306,data_in=5
+	DRIVER  	
+time=306,clk=1,data_in=5,rst =0,
+	MONITOR	
+time=316,clk=1,rst=0,en=1,data_in=5,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=316,rst=0,en=1,data_in=5,data_out=0,full=1,empty=0
+time=316,rst=0,en=1,data_in=5,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=316,data_in=0
+	DRIVER  	
+time=316,clk=1,data_in=0,rst =0,
+	MONITOR	
+time=326,clk=1,rst=0,en=1,data_in=0,data_out=0,full=1,empty=0
+	SCOREBOARD	
+time=326,rst=0,en=1,data_in=0,data_out=0,full=1,empty=0
+time=326,rst=0,en=1,data_in=0,data_out=0,full=1,empty=0
+-----------------------------------------------
+PASS
+-----------------------------------------------
+	GENERATOR	
+time=326,data_in=7
+	DRIVER  	
+time=326,clk=1,data_in=7,rst =0,
+Simulation complete via $finish(1) at time 330 NS + 0
+./testbench.sv:33     $finish;
+xcelium> exit
